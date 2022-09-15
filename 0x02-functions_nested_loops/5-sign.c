@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * print_sign -function that prints the sign of a number
- * if input is greater, iqual or less than zero
+ * print_sign - Determines if the input number
+ * greater, iqual or less than zero.
  *
  * @n: The input number as an integer.
  *
@@ -9,13 +10,13 @@
  * -1 is less than zero.
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 
 	if (n > 0)
 	{
-	_putchar('+');
-	return (1);
+		_putchar('+');
+		return (1);
 	}
 	else if (n == 0)
 	{
@@ -26,6 +27,8 @@ int print_sign(int n);
 	{
 		_putchar('-');
 		return (-1);
+
 	}
-		_putchar('\n');
+
+	_putchar('\n');
 }
