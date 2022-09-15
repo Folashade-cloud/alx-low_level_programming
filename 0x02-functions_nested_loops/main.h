@@ -4,7 +4,7 @@
 /* header file (standard) */ 
 #include <stdio.h>
 
-/* Pritotypes */ 
+/* Prototypes */ 
 
 int _putchar(char c);
 void print_alphabet(void);
