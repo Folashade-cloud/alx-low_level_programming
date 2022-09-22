@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcat - concatenates two strings
  * @src: Char[] to append to dest
  * @dest: Char[] to be appended to
+ *
  * Return: Always 0.
  */
 
