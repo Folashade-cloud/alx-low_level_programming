@@ -1,25 +1,19 @@
-/*
- * File: 2-strlen_recursion.c
- * Auth: fola
- */
-
 #include "main.h"
 
 /**
- * _strlen_recursion - Returns the length of a string.
- * @s: The string to be measured.
+ * _strlen_recursion - calculates the length of a string
+ * @s: string to be used
  *
- * Return: The length of the string.
+ * Return: length of the string
  */
 int _strlen_recursion(char *s)
 {
-	int len = 0;
-	
-	if (*s)
-	{
-		 len++;
-		 len += _strlen_recursion(s + 1);
-	}
+	int sum = 0;
 
-	return (len);
+	if (*s != '\0')
+	{
+		sum++;
+		sum += _strlen_recursion(s + 1);
+	}
+	return (sum);
 }
