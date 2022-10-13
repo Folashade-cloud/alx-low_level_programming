@@ -8,7 +8,7 @@
  * Return: sum of all unsigned int args
  */
 
-Return: sum of all unsigned int args
+int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
 	int total = 0;
