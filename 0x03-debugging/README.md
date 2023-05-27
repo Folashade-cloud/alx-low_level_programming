@@ -1,1 +1,1 @@
-Project on debugging i.e. Finding amd fixing errors in program
+Project on debugging i.e. Finding and fixing errors in program
