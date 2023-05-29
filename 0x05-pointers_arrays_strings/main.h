@@ -1,0 +1,12 @@
+/** my header**/
+
+#ifndef _MAIN_H
+#define _MAIN_H
+#include <string.h>
+#include <stdio.h>
+
+/**prototype**/
+int _pitchar(char c);
+void reset_to_98(int *n);
+
+#endif
