@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**prototype**/
-int _pitchar(char c);
+int _putchar(char c);
 void reset_to_98(int *n);
 int _putchar(char c)
 
