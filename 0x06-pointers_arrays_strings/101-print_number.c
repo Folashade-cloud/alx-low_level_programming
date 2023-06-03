@@ -15,5 +15,6 @@ void print_number(int n)
 	}
 
 	if (number > 0)
-		_putchar(number);
+		print_number(number > 0);
+	_putchar(number);
 }
