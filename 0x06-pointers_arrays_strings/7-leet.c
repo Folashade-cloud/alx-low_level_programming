@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - a leet. Transfomation function
+ * leet - a transfomation function
  * @x: param x
  * Return: a string
  */
