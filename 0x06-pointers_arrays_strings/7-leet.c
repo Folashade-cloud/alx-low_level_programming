@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - a leet conversion function
+ * leet - a leet: transfomation function
  * @x: param x
  * Return: a string
  */
@@ -20,4 +20,5 @@ while (x[indx1])
 	indx1++;
 	}
 	return (x);
+}
 
