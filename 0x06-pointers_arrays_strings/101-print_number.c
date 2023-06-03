@@ -16,5 +16,5 @@ void print_number(int n)
 
 	if (number > 0)
 		print_number(number > 0);
-	_putchar(number);
+	_putchar((number % 10) + '0');
 }
