@@ -2,8 +2,8 @@
 
 /**
  * _strchr - function that locates a character in a string.
- * @s: string
- * @c: character
+ * @s: string to search for char
+ * @c: char to search for
  *
  * Return:  pointer to the first character c in the string s,
  *	otherwise  NULL
@@ -17,7 +17,11 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			return (s + i);
+		}
+	}
+	if (s[i] == c)
+	{
+		return (s + i);
 	}
 	return (NULL);
-}
 }
